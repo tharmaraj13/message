@@ -1,0 +1,6 @@
+curl -X POST http://localhost:3000/api/send/ \
+   -H 'Content-Type: application/json' \
+   -d '{"to_mobileno":"919790332124@c.us","message":"hi"}'
+
+
+curl http://localhost:3000/api/authenticate/
